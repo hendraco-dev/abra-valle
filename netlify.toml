@@ -1,0 +1,20 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/geo/*"
+  to = "https://geoportal.siata.gov.co/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/legacy/*"
+  to = "https://siata.gov.co/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

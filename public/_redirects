@@ -1,0 +1,3 @@
+/geo/*  https://geoportal.siata.gov.co/:splat  200
+/legacy/*  https://siata.gov.co/:splat  200
+/*  /index.html  200
